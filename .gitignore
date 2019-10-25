@@ -1,0 +1,5 @@
+# Do not track these files
+
+/build
+/devel
+/install

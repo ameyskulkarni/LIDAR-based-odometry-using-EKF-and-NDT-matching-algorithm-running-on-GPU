@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O2 -g -DNDEBUG  -shared -Wl,-soname,libgmock.so -o /home/amey/NDT_openMP_ws/src/gps_umd/gps_common/lib/libgmock.so CMakeFiles/gmock.dir/usr/src/gtest/src/gtest-all.cc.o CMakeFiles/gmock.dir/src/gmock-all.cc.o  -L/opt/ros/kinetic/lib -lpthread -Wl,-rpath,/opt/ros/kinetic/lib 
