@@ -23,3 +23,11 @@ To run the repo, follow the steps below -
 6. Run the rosbag which is available at https://drive.google.com/open?id=1mqBURRoouFT1HYkWjkjENcotXf75Tz0u
 
 Note: Please be aware that this repo uses cuda 9.0. If you wish to switch to cuda 10, you will have to update the above mentioned(steps 1,3 and 7) CMakeLists.txt. This repo is untested on cuda 10.0.
+
+You can also get started using the following docker image - 
+https://hub.docker.com/repository/docker/ameysk/ndt_slam_gpu
+
+Make sure to install VNC viewer in your host system to visualize the results. The following link can be used to set up the VNC viewer - 
+https://gist.github.com/cyberang3l/422a77a47bdc15a0824d5cca47e64ba2
+
+Do not hesitate to report any issues or ask any questions about the repo in the "issues" section of the repo or by mailing me at askulkarni2@wpi.edu
