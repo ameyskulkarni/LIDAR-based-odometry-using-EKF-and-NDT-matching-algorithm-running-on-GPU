@@ -13,15 +13,6 @@ Two packages available in this implementation :
 - **ROS** (http://wiki.ros.org/ROS/Installation)
 - **robot_localization** (https://github.com/cra-ros-pkg/robot_localization)
 - **PCL** (https://github.com/PointCloudLibrary/pcl)
-- **OpenMP** (https://github.com/OpenMP)
-- **ndt_omp** (https://github.com/koide3/ndt_omp)
-
-**Compile :**
-
-cd ~/catkin_ws  
-git clone https://github.com/melhousni/ndt_mapping_localization  
-cd ..  
-catkin_make  
 
 **How to use :**
   
@@ -54,17 +45,4 @@ If you still have problem running the packages, you can check the following vide
 - Sometimes, slowing down the rosbag playing speed (using -r) can improve the results of the localization package
 - Tweaking the scoreThreshold parameter can also improve results
 
-Please do not hesitate to report any problems or bugs you may encounter, either throught the issues page of this repo, or by sending me an email at melhousni@wpi.edu.
-
-**Citing** 
-  
-If you use theses packages, please consider refer to this repo with :  
-
-@misc{housni2019,  
-  author = {Mahdi, Elhousni},  
-  title = {NDT-EKF Mapping & Localization},  
-  year = {2019},  
-  publisher = {GitHub},  
-  journal = {GitHub repository},  
-  howpublished = { https://github.com/melhousni/ndt_mapping_localization }  
-}
+Please do not hesitate to report any problems or bugs you may encounter, either throught the issues page of this repo, or by sending an email to melhousni@wpi.edu and askulkarni2@wpi.edu.
